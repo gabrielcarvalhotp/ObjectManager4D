@@ -16,7 +16,6 @@ type
   TObjectManager<T: class> = class(TInterfacedObject, IObjectManager<T>)
   private
     { Private declarations }
-    [strong]
     FObject: T;
   public
     { Public declarations }
